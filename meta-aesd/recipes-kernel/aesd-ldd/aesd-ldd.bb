@@ -61,4 +61,3 @@ FILES:${PN} += "${base_bindir}/*"
 FILES:${PN}-modules += "${KERNEL_MODULE_PATH}/extra/*.ko"
 FILES:${PN} += "${KERNEL_MODULE_PATH}/modules.*"
 FILES:${PN} += "${sysconfdir}/init.d/S98modules"
-
